@@ -1,0 +1,11 @@
+source 'http://rubygems.org/'
+
+gem 'poltergeist', '1.7.0'
+gem 'cucumber'
+gem 'rspec'
+gem 'capybara'
+gem 'pry-byebug'
+gem 'selenium-webdriver', '~> 3.0'
+gem 'site_prism'
+gem 'capybara-screenshot'
+gem 'colorize'

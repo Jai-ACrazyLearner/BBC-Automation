@@ -1,0 +1,16 @@
+# All the configs that can be executed will be set as profile so that we can pass it to cucumber
+
+# Specifying the cucumber directory
+test:             -r cucumber project_dir=./
+
+# Environment
+bbc-radio:        app_host=http://www.bbc.co.uk
+
+# Browser
+firefox:          browser=firefox
+chrome:           browser=chrome
+phantom:          browser=phantom
+
+# Reporting
+report: --format pretty --format html --out ./test_results/BBC_Radio_Report.html
+
