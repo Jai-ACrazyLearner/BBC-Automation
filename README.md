@@ -33,7 +33,7 @@
 ```sh
  4.$gem install bundler
 ```
-    Navigate to project path $ `cd /BBC-Radio-Test
+    Navigate to project path $ `cd /BBC-Automation
 /`
 
 
@@ -59,7 +59,7 @@ $bundle install
 ```sh
 cucumber -p test -p firefox -p bbc-radio -p report features/
 ```
- - The below command will run will only run specified scenarios in chrome broswer
+ - The below command will run will only run specified tag in chrome broswer
 ```sh
 cucumber -p test -p chrome -p bbc-radio -p report -t @bbc_stations_list
 ```

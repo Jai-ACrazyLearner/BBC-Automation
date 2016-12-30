@@ -71,7 +71,7 @@ Feature: list of networks and stations
       | BBC Radio York              |
 
 @bbc_stations_list
-  Scenario Outline: On click on the network should redirect ot correct URL
+  Scenario Outline: On click on the network should redirect to correct URL
     Given I can see the radio nav
     When I select "Stations" in the radio nav
     And I select "<network>" in the stations drawer
