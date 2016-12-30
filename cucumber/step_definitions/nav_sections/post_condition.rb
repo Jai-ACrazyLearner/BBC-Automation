@@ -54,7 +54,6 @@ Then(/^I can see the following stations/) do |stations|
   data_should_have_on_the_stations_list = stations.raw
   data_should_have_on_the_stations_list.each do |rowdata|
     rowdata.each do |stations|
-      byebug
       expect(@BBC_Radio.home_page.find_all_the_link_text_on_stations_list).to include stations
     end
   end
@@ -82,7 +81,7 @@ Then(/^I should be on the radio homepage$/) do
   are_urls_equal_for_page_instance?(@BBC_Radio.home_page)
 end
 
-Then(/^I am on the following "([^"]*)"$/) do |link|
+  Then(/^I am on the following "([^"]*)"$/) do |link|
   expected_url = link
   actual_url = Capybara.current_url
   raise " Expected URL => #{page_link} not matched to current URL => #{actual_url} page_link" unless expected_url == actual_url

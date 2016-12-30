@@ -5,7 +5,6 @@ def validate_class_exist_and_visible?(instance, selector)
 end
 
 def validate_class_exist_and_not_visible?(instance, selector)
-  byebug
   expect(instance).to have_no_selector("#{selector}", visible: false)
 end
 
