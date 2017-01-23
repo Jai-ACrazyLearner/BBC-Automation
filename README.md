@@ -1,4 +1,4 @@
-** BBC Automation **
+**BBC Automation with Ruby/Cucumber/Selenim/Capybara/Siteprism/Poltergeist**
 
 **Setup**
 * Mac/OSx
