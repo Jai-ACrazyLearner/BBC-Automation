@@ -1,5 +1,4 @@
-** BBC Radio Automation Test By Jai Gogineni **
-============================
+** BBC Automation **
 
 **Setup**
 * Mac/OSx
@@ -34,9 +33,7 @@
  4.$gem install bundler
 ```
     Navigate to project path $ `cd /BBC-Automation
-/`
-
-
+    
 on project directory do
 -----------------------
 
@@ -59,7 +56,7 @@ $bundle install
 ```sh
 cucumber -p test -p firefox -p bbc-radio -p report features/
 ```
- - The below command will run will only run specified tag in chrome broswer
+ - The below command will run will only specified tag in chrome broswer
 ```sh
 cucumber -p test -p chrome -p bbc-radio -p report -t @bbc_stations_list
 ```
